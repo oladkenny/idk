@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGW Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1><strong>ADD PAYMENT</strong></h1>
+
+        <section class="firstS">
+
+            <h2>Payment Method</h2>
+
+            <p class="firstp">
+
+                You'll not be charged until you make a purchase
+
+            </p>
+        </section>
+
+        <section class="secondS">
+
+            <p> Credit/Debit Card</p>
+
+            <div>
+
+                <label for="card">Card Type</label>
+                <select id="card" name="payment_card">
+                    <option value="cabin">American Express</option>
+                    <option value="economy">MasterCard</option>
+                    <option value="business">VisaCard</option>
+                </select>
+
+                <p></p>
+
+            </div>
+
+        </section>
+
+        <section class="thirdS">
+
+            <h3>Card Details</h3>
+            <form action="/payment.com">
+
+                <label for="number"> Number</label>
+                <input id="number" type="number" placeholder="Enter Card Number" required>
+
+                <br>
+                <br>
+
+                <label for="expiry date">Expires</label>
+                <input id="expiry date" type="number" placeholder="MM/YYYY" required>
+
+                <br>
+                <br>
+
+                <label for="cvv">CVV</label>
+                <input id="cvv" type="number" placeholder="Enter CVV" required>
+
+                <br>
+                <br>
+
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter password" required>
+
+                <br>
+                <br>
+
+                <h3>Billing Name</h3>
+
+                <div>
+
+                    <label for="firstname">First name</label>
+                    <input id="firstname" type="text" placeholder="Enter your first name" required>
+
+                    <br>
+
+                    <label for="surname">Surname</label>
+                    <input id="surname" type="text" placeholder="Enter your Surname" required>
+
+                </div>
+
+                <h3>Billing Address</h3>
+
+                <label for="street">Street</label>
+                <input id="street" type="text" placeholder="Enter your street name" required>
+
+                <label for="town">City/Town</label>
+                <input id="town" type="text" placeholder="Enter your cty/town name" required>
+
+                <label>State</label>
+                <select>
+                    <option value="">Choose state</option>
+                    <option value="Osun">Osun</option>
+                    <option value="OYO">OYO</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="Ogun">Ogun</option>
+                </select>
+
+                <label for="postcode">Postcode</label>
+                <input id="town" type="number" placeholder="Enter your postcodee" required>
+
+                <label for="phone number">Phone</label>
+                <input id="phone number" type="number" placeholder="Enter your phone number" required>
+
+                <label>Country</label>
+                <select>
+                    <option value="">Choose country</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="South_Africa">South_Africa</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Algeria">Algeria</option>
+                </select>
+
+                <br>
+
+                <button>DONE</button>
+
+            </form>
+
+        </section>
+
+        <footer>
+
+            <p>
+                You can use multiple account with your TGW Account <span><strong><em>Learn more</em></strong></span>
+            </p>
+
+            <p>
+                You authorise TGW to charge to charge this default payment method for paid transaction and if there
+                is a problem,your next eligible payment methods.<span><strong><em>Learn more</em></strong></span>
+            </p>
+
+            <p>
+                If you are a family organiser with sharing purchase power enabled,your eligible payment method may
+                be shared for family member purchases
+            </p>
+
+            <div>
+                <a href="">Help</a>
+                <a href="">contact</a>
+                <a href="">Manage</a>
+
+                <br>
+
+                <a href="">Coperate</a>
+                <a href="">Privacy</a>
+                <a href="">Corporate</a>
+
+                <br>
+
+                <a href="">Terms of use</a>
+                <a href="">Cookie policies</a>
+                <a href="FAQ"></a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

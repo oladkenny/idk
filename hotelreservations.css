@@ -1,0 +1,52 @@
+ /* body */
+ body{
+    background-color:rgb(10, 90, 90);
+}
+
+
+/* headings */
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(202, 158, 99);
+    background-color: black;
+    font-size:40px;
+    border-style:dashed;
+}
+
+h2{
+    text-align:center;
+    color:rgb(35, 16, 2);
+    background-color:bisque;
+    font-size:30px;
+    border-style:double;
+}
+
+/* anchor */
+a:hover{
+    color:green;
+}
+
+a{
+    text-decoration: underline;
+    color:blue;
+}
+
+/* footer section */
+FOOTER{
+    background-color:black;
+}
+
+
+
+/* minor */
+.myfirstdiv{
+    color:antiquewhite;
+    border-style:groove;
+}
+
+p{
+    text-align:left;
+}
+
+
